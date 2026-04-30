@@ -84,16 +84,8 @@ export default function HomePage() {
 
 
       {/* ── ABOUT ── */}
-      <section id="about" className="max-w-5xl mx-auto px-6 py-20">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div>
-            <img
-              src={coverWhite}
-              alt="Обложка журнала Основы долголетия"
-              className="rounded-2xl shadow-xl w-full max-w-xs mx-auto md:mx-0 object-cover"
-            />
-          </div>
-          <div>
+      <section id="about" className="max-w-3xl mx-auto px-6 py-20">
+        <div>
             <p className="text-xs font-medium uppercase tracking-widest text-[#7c2420] mb-3">О журнале</p>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-[#1a1210] mb-6 leading-tight">
               Ваш проводник<br/>к здоровью и долголетию
@@ -117,7 +109,6 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-          </div>
         </div>
       </section>
 
