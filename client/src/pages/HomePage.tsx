@@ -214,7 +214,7 @@ export default function HomePage() {
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
             {/* Shop */}
             <a
-              href="https://shop.doctorstarkova.ru"
+              href="https://shop.doctorstarkova.ru/product/zhurnal-osnovy-dolgoletiya"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center hover:border-[#7c2420] hover:shadow-md transition-all"
