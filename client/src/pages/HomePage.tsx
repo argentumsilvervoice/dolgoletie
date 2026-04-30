@@ -101,7 +101,7 @@ export default function HomePage() {
                 { num: "35+", label: "лет врачебной практики" },
                 { num: "13", label: "выпусков журнала" },
                 { num: "16+", label: "возрастной рейтинг" },
-                { num: "2×", label: "в год — выход новых номеров" },
+                { num: "12×", label: "в год — новый номер каждый месяц" },
               ].map((s) => (
                 <div key={s.label} className="bg-white rounded-xl p-4 border border-[#e8e0d5]">
                   <p className="font-display text-2xl font-bold text-[#7c2420]">{s.num}</p>
