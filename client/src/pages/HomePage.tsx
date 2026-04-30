@@ -81,14 +81,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── DIVIDER ornament ── */}
-      <div className="flex items-center justify-center gap-4 py-4">
-        <div className="h-px bg-[#c9b9ad] w-24" />
-        <svg viewBox="0 0 24 24" className="w-5 h-5 text-[#7c2420]" fill="currentColor">
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
-        </svg>
-        <div className="h-px bg-[#c9b9ad] w-24" />
-      </div>
+
 
       {/* ── ABOUT ── */}
       <section id="about" className="max-w-5xl mx-auto px-6 py-20">
@@ -243,7 +236,17 @@ export default function HomePage() {
               <h3 className="font-semibold text-[#1a1210] mb-1">Магазин доктора Старковой</h3>
               <p className="text-xs text-[#7c2420] font-medium">shop.doctorstarkova.ru</p>
               <p className="text-xs text-[#9a8880] mt-1">Официальный магазин</p>
+              <span className="mt-2 inline-block bg-[#7c2420]/10 text-[#7c2420] text-[10px] font-medium px-2 py-0.5 rounded-full">можно применить промокод</span>
             </a>
+
+            {/* Почта России */}
+            <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
+              <div className="w-12 h-12 rounded-full bg-[#0057a8]/10 flex items-center justify-center mb-3">
+                <span className="text-[#0057a8] font-bold text-xs text-center leading-tight">Почта России</span>
+              </div>
+              <h3 className="font-semibold text-[#1a1210] mb-1">Почта России</h3>
+              <p className="text-xs text-[#9a8880]">Скоро будет доступно</p>
+            </div>
 
             {/* Ozon */}
             <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
@@ -281,11 +284,11 @@ export default function HomePage() {
           <path d="M10 8C5.6 8 2 11.6 2 16s3.6 8 8 8c2.8 0 5.2-1.4 6.6-3.6C17.4 22 18 23.4 18 25h4c0-3.4-1.4-6.4-3.6-8.6C18.8 15 19 13.6 19 12V8h-9zm16 0c-4.4 0-8 3.6-8 8s3.6 8 8 8c2.8 0 5.2-1.4 6.6-3.6.8 1.6 1.4 3 1.4 4.6h4c0-3.4-1.4-6.4-3.6-8.6.4-1.4.6-2.8.6-4.4V8h-9z" />
         </svg>
         <p className="font-display text-2xl md:text-3xl italic text-[#1a1210] leading-relaxed mb-8">
-          Долголетие — это не случайность. Это ежедневный выбор: что есть, как двигаться, о чём думать. Я делюсь методиками, которые сама применяю уже больше 35 лет.
+          Долголетие — это не случайность. Это ежедневный выбор: что есть, как двигаться, о чём думать. Я делюсь методиками, которые применяю для своих пациентов и учеников уже больше 35 лет.
         </p>
         <div className="flex flex-col items-center gap-1">
           <p className="font-semibold text-[#1a1210]">Ирина Леонидовна Старкова</p>
-          <p className="text-sm text-[#7c2420]">Ци-доктор · врач превентивной медицины · мастер цигун</p>
+          <p className="text-sm text-[#7c2420] leading-relaxed max-w-xl mx-auto">врач двух медицин: классической и китайской · главный редактор журнала · автор методики, получившей звание лучшей методики естественного оздоровления · лектор · автор книг и изданий общим тиражом более 62 тыс. экземпляров</p>
         </div>
       </section>
 
