@@ -249,13 +249,19 @@ export default function HomePage() {
             </div>
 
             {/* WB */}
-            <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
-              <div className="w-12 h-12 rounded-full bg-[#7b2d8b]/10 flex items-center justify-center mb-3">
-                <span className="text-[#7b2d8b] font-bold text-sm">WB</span>
+            <a
+              href="https://www.wildberries.ru/catalog/996421634/detail.aspx?targetUrl=GP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-2xl p-6 flex flex-col items-center text-center transition-all hover:shadow-lg hover:scale-[1.02]"
+              style={{ background: "linear-gradient(135deg, #cb11ab 0%, #7b2d8b 100%)", border: "none" }}
+            >
+              <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mb-3">
+                <span className="text-white font-bold text-sm">WB</span>
               </div>
-              <h3 className="font-semibold text-[#1a1210] mb-1">Wildberries</h3>
-              <p className="text-xs text-[#9a8880]">Скоро будет доступно</p>
-            </div>
+              <h3 className="font-semibold text-white mb-1">Wildberries</h3>
+              <p className="text-xs text-white/80">Купить на WB</p>
+            </a>
 
             {/* Avito */}
             <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
