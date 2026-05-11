@@ -231,24 +231,6 @@ export default function HomePage() {
               <span className="mt-2 inline-block bg-white/20 text-white text-[10px] font-medium px-2 py-0.5 rounded-full">можно применить промокод</span>
             </a>
 
-            {/* Почта России */}
-            <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
-              <div className="w-12 h-12 rounded-full bg-[#0057a8]/10 flex items-center justify-center mb-3">
-                <span className="text-[#0057a8] font-bold text-xs text-center leading-tight">Почта России</span>
-              </div>
-              <h3 className="font-semibold text-[#1a1210] mb-1">Почта России</h3>
-              <p className="text-xs text-[#9a8880]">Скоро будет доступно</p>
-            </div>
-
-            {/* Ozon */}
-            <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
-              <div className="w-12 h-12 rounded-full bg-[#005bff]/10 flex items-center justify-center mb-3">
-                <span className="text-[#005bff] font-bold text-sm">OZON</span>
-              </div>
-              <h3 className="font-semibold text-[#1a1210] mb-1">Ozon</h3>
-              <p className="text-xs text-[#9a8880]">Скоро будет доступно</p>
-            </div>
-
             {/* WB */}
             <a
               href="https://www.wildberries.ru/catalog/996421634/detail.aspx?targetUrl=GP"
@@ -263,6 +245,24 @@ export default function HomePage() {
               <h3 className="font-semibold text-white mb-1">Wildberries</h3>
               <p className="text-xs text-white/80">Купить на WB</p>
             </a>
+
+            {/* Ozon */}
+            <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
+              <div className="w-12 h-12 rounded-full bg-[#005bff]/10 flex items-center justify-center mb-3">
+                <span className="text-[#005bff] font-bold text-sm">OZON</span>
+              </div>
+              <h3 className="font-semibold text-[#1a1210] mb-1">Ozon</h3>
+              <p className="text-xs text-[#9a8880]">Скоро будет доступно</p>
+            </div>
+
+            {/* Почта России */}
+            <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
+              <div className="w-12 h-12 rounded-full bg-[#0057a8]/10 flex items-center justify-center mb-3">
+                <span className="text-[#0057a8] font-bold text-xs text-center leading-tight">Почта России</span>
+              </div>
+              <h3 className="font-semibold text-[#1a1210] mb-1">Почта России</h3>
+              <p className="text-xs text-[#9a8880]">Скоро будет доступно</p>
+            </div>
 
             {/* Avito */}
             <a
