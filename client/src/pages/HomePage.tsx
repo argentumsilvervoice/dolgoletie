@@ -217,17 +217,18 @@ export default function HomePage() {
               href="https://shop.doctorstarkova.ru/product/zhurnal-osnovy-dolgoletiya"
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center hover:border-[#7c2420] hover:shadow-md transition-all"
+              className="group rounded-2xl p-6 flex flex-col items-center text-center transition-all hover:shadow-lg hover:scale-[1.02]"
+              style={{ background: "linear-gradient(135deg, #c0392b 0%, #7c2420 60%, #4a1010 100%)", border: "none" }}
             >
-              <div className="w-12 h-12 rounded-full bg-[#7c2420]/10 flex items-center justify-center mb-3 group-hover:bg-[#7c2420]/20 transition-colors">
-                <svg className="w-6 h-6 text-[#7c2420]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mb-3">
+                <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#1a1210] mb-1">Магазин доктора Старковой</h3>
-              <p className="text-xs text-[#7c2420] font-medium">shop.doctorstarkova.ru</p>
-              <p className="text-xs text-[#9a8880] mt-1">Официальный магазин</p>
-              <span className="mt-2 inline-block bg-[#7c2420]/10 text-[#7c2420] text-[10px] font-medium px-2 py-0.5 rounded-full">можно применить промокод</span>
+              <h3 className="font-semibold text-white mb-1">Магазин доктора Старковой</h3>
+              <p className="text-xs text-white/70 font-medium">shop.doctorstarkova.ru</p>
+              <p className="text-xs text-white/60 mt-1">Официальный магазин</p>
+              <span className="mt-2 inline-block bg-white/20 text-white text-[10px] font-medium px-2 py-0.5 rounded-full">можно применить промокод</span>
             </a>
 
             {/* Почта России */}
