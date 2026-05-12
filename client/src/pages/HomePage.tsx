@@ -247,13 +247,19 @@ export default function HomePage() {
             </a>
 
             {/* Ozon */}
-            <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
-              <div className="w-12 h-12 rounded-full bg-[#005bff]/10 flex items-center justify-center mb-3">
-                <span className="text-[#005bff] font-bold text-sm">OZON</span>
+            <a
+              href="https://www.ozon.ru/product/zhurnal-osnovy-dolgoletiya-4281608167/#section-description--offset-140--offset-80"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-2xl p-6 flex flex-col items-center text-center transition-all hover:shadow-lg hover:scale-[1.02]"
+              style={{ background: "linear-gradient(135deg, #005bff 0%, #0041c2 100%)", border: "none" }}
+            >
+              <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mb-3">
+                <span className="text-white font-bold text-sm">OZON</span>
               </div>
-              <h3 className="font-semibold text-[#1a1210] mb-1">Ozon</h3>
-              <p className="text-xs text-[#9a8880]">Скоро будет доступно</p>
-            </div>
+              <h3 className="font-semibold text-white mb-1">Ozon</h3>
+              <p className="text-xs text-white/80">Купить на Ozon</p>
+            </a>
 
             {/* Почта России */}
             <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
