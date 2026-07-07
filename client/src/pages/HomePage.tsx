@@ -73,8 +73,8 @@ export default function HomePage() {
               />
               {/* Floating badge */}
               <div className="absolute -bottom-4 -left-6 bg-white rounded-xl px-4 py-2 shadow-lg border border-[#e8e0d5]">
-                <p className="text-xs text-[#7c2420] font-medium uppercase tracking-wide">Выпуск № 13</p>
-                <p className="text-xs text-[#4a3830]">Май 2026</p>
+                <p className="text-xs text-[#7c2420] font-medium uppercase tracking-wide">Выпуск № 3</p>
+                <p className="text-xs text-[#4a3830]">Июль 2026</p>
               </div>
             </div>
           </div>
@@ -169,24 +169,24 @@ export default function HomePage() {
       <section className="max-w-5xl mx-auto px-6 py-20">
         <p className="text-xs font-medium uppercase tracking-widest text-[#7c2420] mb-3 text-center">Свежий выпуск</p>
         <h2 className="font-display text-3xl md:text-4xl font-bold text-[#1a1210] mb-12 text-center">
-          № 13 · Май 2026
+          № 3 · Июль 2026
         </h2>
         <div className="grid md:grid-cols-3 gap-5">
           {[
             {
-              tag: "Авторская методика Ци-доктора",
-              title: "Холестерин: от тревоги к пониманию, с чего начать",
-              pages: "стр. 16–25",
+              tag: "Авторская методика ци-доктора",
+              title: "Танец живительной силы: тайны веера Тайчи глазами доктора китайской медицины",
+              pages: "стр. 20–24",
             },
             {
               tag: "Активные точки здоровья",
-              title: "Эффективные точки от спазмов и вздутия",
-              pages: "стр. 13",
+              title: "Эффективные точки при пониженном давлении",
+              pages: "стр. 9",
             },
             {
-              tag: "Цветные рецепты",
-              title: "Нежная яичница-болтунья со спаржей",
-              pages: "стр. 14–15",
+              tag: "Время для себя",
+              title: "Уход от культуры загара — шаг к активному долголетию",
+              pages: "стр. 10–13",
             },
           ].map((a) => (
             <div
@@ -212,28 +212,9 @@ export default function HomePage() {
             Печатная версия журнала доступна в магазине доктора Старковой, а также на крупных маркетплейсах.
           </p>
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
-            {/* Shop */}
-            <a
-              href="https://shop.doctorstarkova.ru/product/zhurnal-osnovy-dolgoletiya"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group rounded-2xl p-6 flex flex-col items-center text-center transition-all hover:shadow-lg hover:scale-[1.02]"
-              style={{ background: "linear-gradient(135deg, #c0392b 0%, #7c2420 60%, #4a1010 100%)", border: "none" }}
-            >
-              <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mb-3">
-                <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z" />
-                </svg>
-              </div>
-              <h3 className="font-semibold text-white mb-1">Магазин доктора Старковой</h3>
-              <p className="text-xs text-white/70 font-medium">shop.doctorstarkova.ru</p>
-              <p className="text-xs text-white/60 mt-1">Официальный магазин</p>
-              <span className="mt-2 inline-block bg-white/20 text-white text-[10px] font-medium px-2 py-0.5 rounded-full">можно применить промокод</span>
-            </a>
-
             {/* WB */}
             <a
-              href="https://www.wildberries.ru/catalog/996421634/detail.aspx?targetUrl=GP"
+              href="https://www.wildberries.ru/catalog/1194499646/detail.aspx"
               target="_blank"
               rel="noopener noreferrer"
               className="group rounded-2xl p-6 flex flex-col items-center text-center transition-all hover:shadow-lg hover:scale-[1.02]"
@@ -248,7 +229,7 @@ export default function HomePage() {
 
             {/* Ozon */}
             <a
-              href="https://www.ozon.ru/product/zhurnal-osnovy-dolgoletiya-4281608167/#section-description--offset-140--offset-80"
+              href="https://www.ozon.ru/product/osnovy-dolgoletiya-4840394832/"
               target="_blank"
               rel="noopener noreferrer"
               className="group rounded-2xl p-6 flex flex-col items-center text-center transition-all hover:shadow-lg hover:scale-[1.02]"
@@ -262,27 +243,17 @@ export default function HomePage() {
             </a>
 
             {/* Почта России */}
-            <div className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center opacity-70">
-              <div className="w-12 h-12 rounded-full bg-[#0057a8]/10 flex items-center justify-center mb-3">
-                <span className="text-[#0057a8] font-bold text-xs text-center leading-tight">Почта России</span>
-              </div>
-              <h3 className="font-semibold text-[#1a1210] mb-1">Почта России</h3>
-              <p className="text-xs text-[#9a8880]">Скоро будет доступно</p>
-            </div>
-
-            {/* Avito */}
             <a
-              href="https://www.avito.ru/vatutinki/knigi_i_zhurnaly/zhurnal_osnovy_dolgoletiya_8047154849"
+              href="https://podpiska.pochta.ru/press/%D0%9F%D0%94539"
               target="_blank"
               rel="noopener noreferrer"
-              className="group rounded-2xl p-6 flex flex-col items-center text-center transition-all hover:shadow-lg hover:scale-[1.02]"
-              style={{ background: "linear-gradient(135deg, #00aaff 0%, #0070d1 100%)", border: "none" }}
+              className="group bg-white rounded-2xl border border-[#e8e0d5] p-6 flex flex-col items-center text-center hover:border-[#0057a8] hover:shadow-md transition-all"
             >
-              <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mb-3">
-                <span className="text-white font-bold text-sm">Avito</span>
+              <div className="w-12 h-12 rounded-full bg-[#0057a8]/10 flex items-center justify-center mb-3">
+                <span className="text-[#0057a8] font-bold text-xs text-center leading-tight">Почта</span>
               </div>
-              <h3 className="font-semibold text-white mb-1">Авито</h3>
-              <p className="text-xs text-white/80">Купить на Авито</p>
+              <h3 className="font-semibold text-[#1a1210] mb-1">Почта России</h3>
+              <p className="text-xs text-[#0057a8] font-medium">Оформить подписку</p>
             </a>
           </div>
         </div>
