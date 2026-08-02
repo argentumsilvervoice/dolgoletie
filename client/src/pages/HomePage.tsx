@@ -73,8 +73,8 @@ export default function HomePage() {
               />
               {/* Floating badge */}
               <div className="absolute -bottom-4 -left-6 bg-white rounded-xl px-4 py-2 shadow-lg border border-[#e8e0d5]">
-                <p className="text-xs text-[#7c2420] font-medium uppercase tracking-wide">Выпуск № 3</p>
-                <p className="text-xs text-[#4a3830]">Июль 2026</p>
+                <p className="text-xs text-[#7c2420] font-medium uppercase tracking-wide">Выпуск № 4</p>
+                <p className="text-xs text-[#4a3830]">Август 2026</p>
               </div>
             </div>
           </div>
@@ -169,24 +169,24 @@ export default function HomePage() {
       <section className="max-w-5xl mx-auto px-6 py-20">
         <p className="text-xs font-medium uppercase tracking-widest text-[#7c2420] mb-3 text-center">Свежий выпуск</p>
         <h2 className="font-display text-3xl md:text-4xl font-bold text-[#1a1210] mb-12 text-center">
-          № 3 · Июль 2026
+          № 4 · Август 2026
         </h2>
         <div className="grid md:grid-cols-3 gap-5">
           {[
             {
               tag: "Авторская методика ци-доктора",
-              title: "Танец живительной силы: тайны веера Тайчи глазами доктора китайской медицины",
-              pages: "стр. 20–24",
+              title: "География здоровья: уроки долголетия мудрого китайского императора",
+              pages: "стр. 24–29",
             },
             {
               tag: "Активные точки здоровья",
-              title: "Эффективные точки при пониженном давлении",
-              pages: "стр. 9",
+              title: "Эффективные точки при запорах",
+              pages: "стр. 15",
             },
             {
-              tag: "Время для себя",
-              title: "Уход от культуры загара — шаг к активному долголетию",
-              pages: "стр. 10–13",
+              tag: "Понятная биомеханика",
+              title: "Симметрия начинается с асимметрии: короткая мышца — главный объект внимания",
+              pages: "стр. 35–36",
             },
           ].map((a) => (
             <div
@@ -214,7 +214,7 @@ export default function HomePage() {
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
             {/* WB */}
             <a
-              href="https://www.wildberries.ru/catalog/1194499646/detail.aspx"
+              href="https://www.wildberries.ru/catalog/1275250067/detail.aspx"
               target="_blank"
               rel="noopener noreferrer"
               className="group rounded-2xl p-6 flex flex-col items-center text-center transition-all hover:shadow-lg hover:scale-[1.02]"
@@ -229,7 +229,7 @@ export default function HomePage() {
 
             {/* Ozon */}
             <a
-              href="https://www.ozon.ru/product/osnovy-dolgoletiya-4840394832/"
+              href="https://ozon.ru/t/7GE4mxR"
               target="_blank"
               rel="noopener noreferrer"
               className="group rounded-2xl p-6 flex flex-col items-center text-center transition-all hover:shadow-lg hover:scale-[1.02]"
