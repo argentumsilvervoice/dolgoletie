@@ -209,7 +209,7 @@ export default function HomePage() {
             Заказать журнал
           </h2>
           <p className="text-center text-[#4a3830] mb-12 max-w-lg mx-auto">
-            Печатная версия журнала доступна в магазине доктора Старковой, а также на крупных маркетплейсах.
+            Печатная версия журнала доступна на крупных маркетплейсах.
           </p>
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
             {/* WB */}
